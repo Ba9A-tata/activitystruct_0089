@@ -1,3 +1,5 @@
+//struct 1
+
 #include <iostream>
 using namespace std;
 
@@ -25,6 +27,8 @@ int main() {
 	cout << "\n Alamat : " << mhs.alamat;
 	cout << "\n Umur : " << mhs.umur;
 }
+
+//struct 2
 
 #include <iostream>
 using namespace std;
@@ -66,10 +70,12 @@ int main() {
 	cout << "\n Umur : " << mhs.umur;
 }
 
+//struct 3
+
 #include <iostream>
 using namespace std;
 
-struct DetailAlamat {
+struct DetailAlamat{
 	string desa;
 	string kota;
 };
@@ -105,6 +111,9 @@ int main() {
 	cout << "\n \t Desa : " << mhs.alamat.desa;
 	cout << "\n Umur : " << mhs.umur;
 }
+
+
+//struct 4
 
 #include <iostream>
 
@@ -150,5 +159,6 @@ int main() {
 		cout << "\n \ t Desa : " << mhs[i].alamat.desa;
 		cout << "\n \t Kota : " << mhs[i].alamat.kota;
 		cout << "\n Umur : " << mhs[i].umur;
+		cout << endl;
 	}
 }
