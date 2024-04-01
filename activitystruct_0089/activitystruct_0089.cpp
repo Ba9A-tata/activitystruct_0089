@@ -33,6 +33,6 @@ struct Mahasiswa {
 	string nim;
 	string nama;
 	DetailAlamat alamat;
-
+	string umur;
 };
 
