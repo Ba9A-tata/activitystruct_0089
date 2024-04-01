@@ -30,6 +30,7 @@ int main() {
 using namespace std;
 
 struct DetailAlamat {
+	string desa;
 
 };
 
