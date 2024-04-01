@@ -26,3 +26,10 @@ int main() {
 	cout << "\n Umur : " << mhs.umur;
 }
 
+#include <iostream>
+using namespace std;
+
+struct Mahasiswa {
+
+};
+
